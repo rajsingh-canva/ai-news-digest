@@ -1,0 +1,100 @@
+# AI News RSS Feeds
+# Edit this file to add/remove sources
+
+[feeds]
+
+# --- Major AI Labs ---
+[feeds.openai]
+url = "https://openai.com/blog/rss.xml"
+category = "labs"
+name = "OpenAI Blog"
+
+[feeds.deepmind]
+url = "https://deepmind.google/blog/rss.xml"
+category = "labs"
+name = "Google DeepMind"
+
+[feeds.huggingface]
+url = "https://huggingface.co/blog/feed.xml"
+category = "labs"
+name = "Hugging Face Blog"
+
+# --- Industry News ---
+[feeds.techcrunch_ai]
+url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+category = "industry"
+name = "TechCrunch AI"
+
+[feeds.verge_ai]
+url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+category = "industry"
+name = "The Verge AI"
+
+[feeds.venturebeat_ai]
+url = "https://venturebeat.com/category/ai/feed/"
+category = "industry"
+name = "VentureBeat AI"
+
+[feeds.arstechnica]
+url = "https://feeds.arstechnica.com/arstechnica/technology-lab"
+category = "industry"
+name = "Ars Technica"
+
+[feeds.mit_tech_review]
+url = "https://www.technologyreview.com/feed/"
+category = "industry"
+name = "MIT Technology Review"
+
+[feeds.wired_ai]
+url = "https://www.wired.com/feed/tag/ai/latest/rss"
+category = "industry"
+name = "Wired AI"
+
+# --- Community ---
+[feeds.reddit_ml]
+url = "https://www.reddit.com/r/MachineLearning/hot/.rss"
+category = "community"
+name = "r/MachineLearning"
+
+[feeds.reddit_localllama]
+url = "https://www.reddit.com/r/LocalLLaMA/hot/.rss"
+category = "community"
+name = "r/LocalLLaMA"
+
+# --- Research ---
+[feeds.arxiv_cs_ai]
+url = "https://rss.arxiv.org/rss/cs.AI"
+category = "research"
+name = "ArXiv CS.AI"
+
+[feeds.arxiv_cs_cl]
+url = "https://rss.arxiv.org/rss/cs.CL"
+category = "research"
+name = "ArXiv CS.CL"
+
+# --- YouTube Channels (RSS feeds) ---
+[feeds.two_minute_papers]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
+category = "youtube"
+name = "Two Minute Papers"
+
+[feeds.fireship]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+category = "youtube"
+name = "Fireship"
+
+# --- Dedicated AI News ---
+[feeds.ai_news]
+url = "https://www.artificialintelligence-news.com/feed/"
+category = "newsletter"
+name = "AI News"
+
+[feeds.the_decoder]
+url = "https://the-decoder.com/feed/"
+category = "newsletter"
+name = "The Decoder"
+
+[feeds.marktechpost]
+url = "https://www.marktechpost.com/feed/"
+category = "newsletter"
+name = "MarkTechPost"
